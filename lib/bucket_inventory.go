@@ -204,6 +204,7 @@ var bucketInventoryCommand = BucketInventoryCommand{
 			OptionProxyUser,
 			OptionProxyPwd,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionMethod,
 			OptionMarker,
 		},

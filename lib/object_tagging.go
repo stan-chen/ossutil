@@ -140,6 +140,7 @@ var objectTagCommand = ObjectTagCommand{
 			OptionRoutines,
 			OptionMethod,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionEncodingType,
 			OptionRecursion,
 			OptionVersionId,

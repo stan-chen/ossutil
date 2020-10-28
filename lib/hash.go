@@ -122,6 +122,7 @@ var hashCommand = HashCommand{
 		validOptionNames: []string{
 			OptionHashType,
 			OptionLogLevel,
+			OptionLogPath,
 		},
 	},
 }

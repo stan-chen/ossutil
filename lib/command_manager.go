@@ -33,6 +33,7 @@ func ParseAndRunCommand() error {
 
 	var level = oss.LogOff
 	strLevel, err := GetString(OptionLogLevel, options)
+	strLogPath, err := GetString(OptionLogPath, options)
 	if strLevel == "info" {
 		level = oss.Info
 	} else if strLevel == "debug" {
@@ -42,7 +43,7 @@ func ParseAndRunCommand() error {
 	}
 
 	if level > oss.LogOff {
-		InitLogger(level, logName)
+		InitLogger(level, strLogPath)
 	}
 
 	startT := time.Now()

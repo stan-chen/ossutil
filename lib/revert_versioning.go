@@ -133,6 +133,7 @@ var revertCommand = RevertCommand{
 			OptionProxyUser,
 			OptionProxyPwd,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionRecursion,
 			OptionRequestPayer,
 			OptionStartTime,

@@ -124,6 +124,7 @@ var signURLCommand = SignurlCommand{
 			OptionAccessKeySecret,
 			OptionSTSToken,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionVersionId,
 			OptionTrafficLimit,
 			OptionDisableEncodeSlash,

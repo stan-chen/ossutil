@@ -247,6 +247,7 @@ var setACLCommand = SetACLCommand{
 			OptionRoutines,
 			OptionOutputDir,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionVersionId,
 		},
 	},

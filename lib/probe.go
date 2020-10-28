@@ -350,6 +350,7 @@ var probeCommand = ProbeCommand{
 			OptionAddr,
 			OptionUpMode,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionProbeItem,
 		},
 	},

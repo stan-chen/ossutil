@@ -149,6 +149,7 @@ var bucketQosCommand = BucketQosCommand{
 			OptionProxyUser,
 			OptionProxyPwd,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionMethod,
 		},
 	},

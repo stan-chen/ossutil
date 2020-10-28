@@ -125,6 +125,7 @@ var bucketEncryptionCommand = BucketEncryptionCommand{
 			OptionProxyPwd,
 			OptionMethod,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionSSEAlgorithm,
 			OptionKMSMasterKeyID,
 			OptionKMSDataEncryption,

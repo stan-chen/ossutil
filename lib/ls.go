@@ -387,6 +387,7 @@ var listCommand = ListCommand{
 			OptionProxyPwd,
 			OptionRetryTimes,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionRequestPayer,
 			OptionShortFormat,
 			OptionDirectory,

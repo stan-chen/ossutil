@@ -237,6 +237,7 @@ var bucketWebsiteCommand = BucketWebSiteCommand{
 			OptionProxyUser,
 			OptionProxyPwd,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionMethod,
 		},
 	},

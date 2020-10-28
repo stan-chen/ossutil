@@ -86,6 +86,7 @@ var corsOptionsCommand = OptionsCommand{
 			OptionProxyUser,
 			OptionProxyPwd,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionEncodingType,
 			OptionOrigin,
 			OptionAcrMethod,

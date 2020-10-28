@@ -96,6 +96,7 @@ var helpCommand = HelpCommand{
 		validOptionNames: []string{
 			OptionLanguage,
 			OptionLogLevel,
+			OptionLogPath,
 		},
 	},
 }

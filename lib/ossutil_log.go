@@ -15,12 +15,17 @@ var logLevel = oss.LogOff
 var utilLogger *log.Logger
 var logFile *os.File
 
-func openLogFile() (*os.File, error) {
-	dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
-	if err != nil {
-		dir = "."
+func openLogFile(logPath string) (*os.File, error) {
+	var absLogName string
+	if len(logPath) == 0 {
+		dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
+		if err != nil {
+			dir = "."
+		}
+		absLogName = dir + string(os.PathSeparator) + logName
+	} else {
+		absLogName = logPath
 	}
-	absLogName := dir + string(os.PathSeparator) + logName
 	f, err := os.OpenFile(absLogName, os.O_CREATE|os.O_APPEND|os.O_RDWR, 0660)
 	if err != nil {
 		fmt.Printf("open %s error,info:%s.\n", absLogName, err.Error())
@@ -30,10 +35,9 @@ func openLogFile() (*os.File, error) {
 	return f, err
 }
 
-func InitLogger(level int, name string) {
+func InitLogger(level int, logPath string) {
 	logLevel = level
-	logName = name
-	f, err := openLogFile()
+	f, err := openLogFile(logPath)
 	if err != nil {
 		return
 	}

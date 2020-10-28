@@ -83,6 +83,7 @@ var userQosCommand = UserQosCommand{
 			OptionProxyUser,
 			OptionProxyPwd,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionMethod,
 		},
 	},

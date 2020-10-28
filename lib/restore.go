@@ -178,6 +178,7 @@ var restoreCommand = RestoreCommand{
 			OptionRoutines,
 			OptionOutputDir,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionVersionId,
 			OptionRequestPayer,
 		},

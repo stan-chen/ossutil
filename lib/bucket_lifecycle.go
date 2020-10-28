@@ -163,6 +163,7 @@ var bucketLifeCycleCommand = BucketLifeCycleCommand{
 			OptionProxyUser,
 			OptionProxyPwd,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionMethod,
 		},
 	},

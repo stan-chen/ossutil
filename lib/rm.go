@@ -317,6 +317,7 @@ var removeCommand = RemoveCommand{
 			OptionProxyPwd,
 			OptionRetryTimes,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionRecursion,
 			OptionBucket,
 			OptionForce,

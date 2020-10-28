@@ -148,6 +148,7 @@ var appendFileCommand = AppendFileCommand{
 			OptionMeta,
 			OptionMaxUpSpeed,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionRequestPayer,
 		},
 	},

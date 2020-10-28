@@ -110,6 +110,7 @@ var statCommand = StatCommand{
 			OptionProxyPwd,
 			OptionRetryTimes,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionVersionId,
 			OptionRequestPayer,
 		},

@@ -128,6 +128,7 @@ var bucketRefererCommand = BucketRefererCommand{
 			OptionProxyUser,
 			OptionProxyPwd,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionDisableEmptyReferer,
 			OptionMethod,
 		},

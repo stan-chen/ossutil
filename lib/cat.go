@@ -100,6 +100,7 @@ var catCommand = CatCommand{
 			OptionProxyPwd,
 			OptionEncodingType,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionVersionId,
 			OptionRequestPayer,
 		},

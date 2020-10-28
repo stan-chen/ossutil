@@ -113,6 +113,7 @@ var readSymlinkCommand = ReadSymlinkCommand{
 			OptionProxyPwd,
 			OptionRetryTimes,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionVersionId,
 			OptionRequestPayer,
 		},

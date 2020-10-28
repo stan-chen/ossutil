@@ -116,6 +116,7 @@ var createSymlinkCommand = CreateSymlinkCommand{
 			OptionProxyPwd,
 			OptionRetryTimes,
 			OptionLogLevel,
+			OptionLogPath,
 			OptionRequestPayer,
 		},
 	},
