@@ -24,6 +24,9 @@ func openLogFile(logPath string) (*os.File, error) {
 		}
 		absLogName = dir + string(os.PathSeparator) + logName
 	} else {
+		if logPath == "stdout" {
+			return os.Stdout, nil
+		}
 		absLogName = logPath
 	}
 	f, err := os.OpenFile(absLogName, os.O_CREATE|os.O_APPEND|os.O_RDWR, 0660)
